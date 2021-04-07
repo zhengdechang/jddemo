@@ -1,0 +1,38 @@
+.otherapp{
+	margin-top: 5px;
+	overflow: hidden;
+	border-bottom: 5px solid #f3f5f7 !important;
+}
+
+
+
+.otherapp ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -40px;
+}
+
+.otherapp ul li{
+	flex:1;
+	list-style: none;
+	margin: 10px  18px;
+}
+
+
+.otherapp a{
+	text-decoration:none;
+	color: #888;
+  }
+
+  .otherapp img{
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	display: block;
+  }
+ 
+  
+  .otherapp img + span{
+	display: block;
+	text-align: center;
+  }

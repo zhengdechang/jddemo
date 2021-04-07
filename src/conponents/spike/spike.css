@@ -1,0 +1,114 @@
+.spike{
+	background-color: white;
+	padding: 10px 0;
+  }
+  
+  .head{
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .left{
+  
+  }
+  
+  .left span{
+	vertical-align: middle;
+	font-size: 16px;
+  }
+  
+  .left>span:nth-child(2){
+	padding: 0 20px;
+	color: #ca1327;
+  }
+  
+  .time span:nth-child(2){
+	position: relative;
+  }
+  
+  .time span:nth-child(2):after{
+	position: absolute;
+	right: -9px;
+	content: ':';
+	color: #3d3d3d;
+	font-weight: 500;
+  }
+  
+  .time span:nth-child(2):before{
+	position: absolute;
+	left: -8px;
+	content: ':';
+	color: #3d3d3d;
+	font-weight: 500;
+  }
+  
+  .content{
+	margin-top: 15px;
+  }
+  
+  .content ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+  
+  .content li{
+	width: 33%;
+	float: left;
+	list-style: none;
+  }
+  
+  .content a{
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+  }
+  a:focus, a:hover {
+	  color: #337ab7;
+	  text-decoration: none;
+  }
+  
+  .content a div{
+	width: 100%;
+  }
+  
+  .content li:nth-child(2) div{
+	border-left: 1px solid #f3f5f7;
+	border-right: 1px solid #f3f5f7;
+  }
+  
+  .content img{
+	margin: 0 auto;
+	width: 65%;
+	display: block;
+  }
+  
+  .content p{
+	margin: 0;
+	padding: 0;
+  }
+  
+  .content a p:nth-child(2){
+	color: red;
+  }
+  
+  .content a p:nth-child(3){
+	color: #ccc;
+	text-decoration: line-through;
+  }
+  
+.timeSty{
+	margin : 0 6px;
+	padding : 3px 2px;
+	background-color: #3d3d3d;
+	color:white;
+}
+ 
+
+.timet{
+	position: absolute;
+	text-align: center;
+	margin-top: 1px;
+}
+
